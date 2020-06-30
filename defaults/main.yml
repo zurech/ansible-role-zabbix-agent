@@ -1,2 +1,6 @@
 ---
-# defaults file for ansible-role-zabbix-agent
+# Handle properly zabbix_minor_version and zabbix_major_version
+
+zabbix_server_version: '4.4'
+zabbix_server_minor_version: '1'
+zabbix_server_ip: 'localhost'
